@@ -12,7 +12,7 @@ const Education = () => {
 
           <div className="education-item">
             <h3>Bachelor of Science(Eng.) in Electrical & Computer Engineering</h3>
-            <h4>Rajshahi University of Engineering & Technology (RUET), 2021</h4>
+            <h4>Rajshahi University of Engineering & Technology (RUET)</h4>
            
           </div>
 

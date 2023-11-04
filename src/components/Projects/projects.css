@@ -9,6 +9,7 @@
     flex-direction: row;
     justify-content: space-around;
     color: white;
+    
 
  
 
@@ -36,6 +37,10 @@
     border-radius: 10px;
   }
 
-  .name1 {
-    text-decoration: none;
+  .projectheading{
+    background-color: black;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 100px;
   }
