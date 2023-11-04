@@ -1,19 +1,33 @@
 import React from 'react';
-import '../styles.css'; // Assuming styles.css contains your CSS
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+
 
 const Header = () => {
   return (
-    <header className="header">
-      <img src=".../publicg" alt="Portfolio Logo" className="logo" />
-      <nav className="navigation">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <AppBar position="static">
+      <Toolbar>
+        <IconButton
+          edge="start"
+          color="inherit"
+          aria-label="menu"
+          sx={{ mr: 2 }}
+        >
+          <MenuIcon />
+        </IconButton>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          My Portfolio
+        </Typography>
+        <Button color="inherit" href="#about">About</Button>
+        <Button color="inherit" href="#skills">Skills</Button>
+        <Button color="inherit" href="#projects">Projects</Button>
+        <Button color="inherit" href="#contact">Contact</Button>
+      </Toolbar>
+    </AppBar>
   );
 };
 
