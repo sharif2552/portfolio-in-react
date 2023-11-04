@@ -18,15 +18,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="navbar-item">
-          <Link to="services" spy={true} smooth={true} offset={-70} duration={500}>
-            Services
+          <Link to="projects" spy={true} smooth={true} offset={-70} duration={500}>
+            Projects
           </Link>
         </li>
-        <li className="navbar-item">
-          <Link to="experience" spy={true} smooth={true} offset={-70} duration={500}>
-            Experience
-          </Link>
-        </li>
+ 
         <li className="navbar-item">
           <Link to="education" spy={true} smooth={true} offset={-70} duration={500}>
             Education

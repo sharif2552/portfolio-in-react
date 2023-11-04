@@ -1,0 +1,41 @@
+/* services.css */
+
+.projects {
+    background-color: #000000;
+    padding: 4em 0;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+
+ 
+
+  }
+  .project1{
+    align-items: center;
+    margin-right: 0px;
+
+
+  }
+  .project1 h2 , .projects h2{
+    text-decoration: none;
+    color: white;
+
+  }
+  
+  .img1{
+    height: 50%;
+    width: auto;
+    border-radius: 10px;
+  }
+  .img2{
+    height: 50%;
+    width: auto;
+    border-radius: 10px;
+  }
+
+  .name1 {
+    text-decoration: none;
+  }

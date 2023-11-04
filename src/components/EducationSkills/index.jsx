@@ -3,28 +3,27 @@ import './educationskills.css'; // Assuming you're using the same CSS file for E
 
 const Education = () => {
   return (
+
+    <div>
     <section id="education" className="education-section">
       <div className="container">
         <h2 className="section-title">Education</h2>
         <div className="education-list">
-          {/* Example education entry */}
+
           <div className="education-item">
-            <h3>Master of Science in Computer Science</h3>
-            <h4>University Name, Year</h4>
-            <p>Thesis topic or other relevant information</p>
-          </div>
-          
-          {/* Repeat for other education entries */}
-          <div className="education-item">
-            <h3>Bachelor of Science in Software Engineering</h3>
-            <h4>University Name, Year</h4>
-            <p>Relevant coursework or achievements</p>
+            <h3>Bachelor of Science(Eng.) in Electrical & Computer Engineering</h3>
+            <h4>Rajshahi University of Engineering & Technology (RUET), 2021</h4>
+           
           </div>
 
-          {/* Add more education items as needed */}
         </div>
       </div>
-    </section>
+
+    </section>   
+    <div>
+        <h3 className='last'>Copyright 2021. All rights Reserved </h3>
+      </div>   
+    </div>
   );
 };
 

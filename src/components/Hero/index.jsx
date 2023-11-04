@@ -8,7 +8,7 @@ const Hero = () => {
       <div className='text'>
       <h1>Web Developer</h1>
       <h2>Sharif Hossain</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <p>I am a passionate web developer with a deep interest in building engaging and intuitive user experiences. My journey into web development began with a curiosity for how websites work and a desire to create digital spaces that are both beautiful and functional. 
 .</p>
 
       </div>

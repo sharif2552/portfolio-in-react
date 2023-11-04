@@ -1,8 +1,8 @@
 /* navbar.css */
 
 .navbar {
-    background-color: black; /* Sets the background color of the navbar to black */
-    color: white; /* Sets the text color within the navbar to white */
+    background-color: rgb(97, 218, 251); /* Sets the background color of the navbar to black */
+    color: rgb(0, 0, 0); /* Sets the text color within the navbar to white */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,7 +33,7 @@
   }
   
   .navbar-item a {
-    color: white; /* Ensures that the text inside the link is white */
+    color: rgb(0, 0, 0); /* Ensures that the text inside the link is white */
     text-decoration: none; /* Removes the underline from links */
     transition: color 0.3s ease; /* Smooth transition for hover effect */
   }
