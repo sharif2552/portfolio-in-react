@@ -2,7 +2,7 @@
 
 .about {
     padding: 4em 0;
-    background-color: #000000;
+    background-color: #181a1d;
     color: #ffffff;
     text-align: center;
     height: 500px;
@@ -23,7 +23,8 @@
     width: auto;
   }
   .text{
-    margin: 20px;
+    margin-left: 40px;
+    text-align: left;
 
   }
   
