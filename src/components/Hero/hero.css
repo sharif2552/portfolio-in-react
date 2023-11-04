@@ -1,0 +1,31 @@
+.hero {
+    padding: 200px 0;
+    background: #050404;
+    text-align: left;
+    height: 500px;
+    color: aliceblue;
+    display: flex;
+   padding-left: 10px;
+   justify-content: space-between;
+   align-items: center;
+  }
+  
+  .hero h1{
+    font-size: 15px;
+    margin-bottom: 0px;
+    font-weight: 150;
+  }
+  .hero h2{
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 0;
+  }
+  .hero p{
+    margin-top: 5px;
+  }
+
+.image{
+height: 300px;
+width: auto;
+margin-left: 50px;
+}

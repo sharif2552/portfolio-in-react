@@ -1,0 +1,54 @@
+/* services.css */
+
+.services {
+    background-color: #fff;
+    padding: 4em 0;
+    text-align: center;
+    height: 500px;
+  }
+  
+  .services h2 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 0.75em;
+  }
+  
+  .services p {
+    color: #34495e;
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 2em;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .service-item {
+    margin-bottom: 1.5em;
+  }
+  
+  .service-item h3 {
+    font-size: 1.5em;
+    color: #2980b9;
+  }
+  
+  .service-item p {
+    margin-top: 0.5em;
+    color: #7f8c8d;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .services h2 {
+      font-size: 2em;
+    }
+  
+    .services p {
+      font-size: 1em;
+    }
+  
+    .service-item h3 {
+      font-size: 1.3em;
+    }
+  }
+  

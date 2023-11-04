@@ -1,0 +1,47 @@
+/* about.css */
+
+.about {
+    padding: 4em 0;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  .profileimage{
+    height: 200px;
+    width: auto;
+  }
+  .text{
+    margin: 20px;
+
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 600px; /* Limits the width of the paragraph for readability */
+  }
+  
+  /* Add media query for responsive adjustment */
+  @media (max-width: 768px) {
+    .about h2 {
+      font-size: 2em;
+    }
+  
+    .about p {
+      font-size: 1em;
+    }
+  }
+  

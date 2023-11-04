@@ -1,0 +1,63 @@
+/* educationskills.css */
+
+.education-section {
+    background-color: #fff;
+    padding: 4em 0;
+    text-align: center;
+  }
+  
+  .education-section .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .section-title {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+  }
+  
+  .education-list {
+    margin-top: 2em;
+  }
+  
+  .education-item {
+    margin-bottom: 2em;
+    text-align: left;
+  }
+  
+  .education-item h3 {
+    color: #2980b9;
+    font-size: 1.8em;
+    margin-bottom: 0.25em;
+  }
+  
+  .education-item h4 {
+    color: #7f8c8d;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .education-item p {
+    color: #2c3e50;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .education-item h3 {
+      font-size: 1.5em;
+    }
+  
+    .education-item h4 {
+      font-size: 1.1em;
+    }
+  
+    .section-title {
+      font-size: 2em;
+    }
+  }
+  

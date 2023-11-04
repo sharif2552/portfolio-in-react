@@ -1,0 +1,45 @@
+/* navbar.css */
+
+.navbar {
+    background-color: black; /* Sets the background color of the navbar to black */
+    color: white; /* Sets the text color within the navbar to white */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+  }
+.navbar-list{
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+.brand{
+  margin-left: 20px;
+
+}
+  
+  .navbar-list {
+    list-style: none; /* Removes the default list styling */
+    padding: 0; /* Removes the default padding */
+    margin: 0; /* Removes the default margin */
+    display: flex; /* Displays the list items inline */
+    align-items: center; /* Centers the items vertically */
+    justify-content: space-between; /* Spaces out the items evenly */
+  }
+  
+  .navbar-item {
+    padding: 1rem; /* Adds padding around each navbar item for spacing and better clickability */
+  }
+  
+  .navbar-item a {
+    color: white; /* Ensures that the text inside the link is white */
+    text-decoration: none; /* Removes the underline from links */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .navbar-item a:hover,
+  .navbar-item a.active {
+    color: #f0f0f0; /* Slightly lighter shade of white for hover/active state */
+  }
+  
