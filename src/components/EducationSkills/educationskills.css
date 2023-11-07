@@ -4,6 +4,12 @@
     background-color: #181a1d;
     padding: 4em 0;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: auto;
+    margin-top: px;
   }
   
   .education-section .container {

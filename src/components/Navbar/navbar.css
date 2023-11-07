@@ -43,3 +43,24 @@
     color: #f0f0f0; /* Slightly lighter shade of white for hover/active state */
   }
   
+  @media (min-width: 100px) and (max-width: 445px) {
+    .navbar {
+      background-color: rgb(97, 218, 251); /* Sets the background color of the navbar to black */
+      color: rgb(0, 0, 0); /* Sets the text color within the navbar to white */
+      display: flex;
+      flex-direction: row;
+
+      
+    }
+  .navbar-list{
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-right: 5px;
+    
+  }
+  
+  .navbar-item {
+    padding: 0.5rem; /* Adds padding around each navbar item for spacing and better clickability */
+  }
+
+  }

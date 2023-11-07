@@ -6,7 +6,7 @@ import Services from '../components/Projects';
 
 import Education from '../components/EducationSkills';
 // ... other imports
-
+import './Homepage.css'
 const HomePage = () => {
   return (
     <>

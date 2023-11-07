@@ -19,8 +19,8 @@
     margin-bottom: 0.5em;
   }
   .profileimage{
-    height: 200px;
-    width: auto;
+    height: auto;
+    max-width: 150px;
   }
   .text{
     margin-left: 40px;
