@@ -20,7 +20,7 @@ const Services = () => {
 <div className='project2'>
   <a target='_black' href="https://ecommerce159951.pythonanywhere.com/">
     <img className='img2' src={project2} alt="img2" />
-<h2 className='name2'>Ecommerce Website</h2>
+<h2 className='name2'>Ecommerce Website(Backend)</h2>
   </a>
 
 </div>
